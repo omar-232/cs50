@@ -5,10 +5,12 @@
 
 int main(void)
 {
+    string name;
+    string location;
     // Ask for your name and where live
-    char name = get_string("What is your name? ")
-    char location = get_string("Where do you live? ")
+    name = get_string("What is your name? ");
+    location = get_string("Where do you live? ");
 
     // Say hello
-    print("Hello, %i, from %i!", name, location)
+    printf("Hello, %i, from %i!", name, location);
 }

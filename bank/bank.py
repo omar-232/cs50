@@ -1,12 +1,10 @@
-input = input("Greeting: ")
+input = input("Greeting: ").strip()
 
-if input == "Hello":
+if input == "Hello" or input == "Hello, Newman":
      print("$0")
-if input == "Hello, Newman":
-     print("$0")
-if input == "Hey":
+elif input == "Hey" or input == "How you doing?":
      print("$20")
-if input == "How you doing?":
-     print("$20")
-if input == "What's happening?":
+elif input == "What's happening?":
      print("$100")
+else:
+    print("No matching response")

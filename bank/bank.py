@@ -1,7 +1,7 @@
 input = input("Greeting: ")
 
 if input == "Hello":
-    print("$0")
+     print("$0")
 if input == "Hello, Newman":
      print("$0")
 if input == "Hey":

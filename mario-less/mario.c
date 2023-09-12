@@ -3,6 +3,7 @@
 
 int main(void)
 {
-    prompet = get_int("")
+    int prompet = get_int("Height: ")
+
 
 }

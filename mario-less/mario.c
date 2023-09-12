@@ -1,8 +1,6 @@
-#include <cs50.h>
 #include <stdio.h>
 
-int main(void)
-{
+int main() {
     int height;
     int i, j, k;
 
@@ -11,15 +9,17 @@ int main(void)
 
     for (i = 0; i < height; i++)
     {
-        for (j = 0; j < height - i; j++)
+        for (j = 0; j < height - i - 1; j++)
         {
             printf(" ");
         }
+
         for (k = 0; k < i + 1; k++)
         {
             printf("#");
         }
-        printf("/n");
+        printf("\n");
     }
-    return (0);
+
+    return 0;
 }

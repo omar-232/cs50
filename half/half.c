@@ -20,6 +20,6 @@ float half(float bill, float tax, int tip)
 {
     float Sales_tax = bill + tax;
     float Tap = bill + tip;
-    float Total_bill = 
+    float Total_bill = bill + Sales
     return 0.0;
 }

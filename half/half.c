@@ -21,6 +21,6 @@ float half(float bill, float tax, int tip)
     float Sales_tax = bill + tax;
     float Tip = bill + tip;
     float Total_bill = bill + Sales_tax + Tip;
-    
+    float Amount each person owes = Total_bill / 2;
     return 0.0;
 }

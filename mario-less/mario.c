@@ -3,7 +3,8 @@
 
 int main(void)
 {
-    int prompet = get_int("Height: ")
-    
+    do {
+        int prompet = get_int("Height: ")
+    } while (prompet <= 0)
 
 }

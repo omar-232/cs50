@@ -3,10 +3,22 @@
 
 int main(void)
 {
-    int i, j;
-    do {
-        int prompet = get_int("Height: ")
-    } while (prompet <= 0);
+    int height;
 
-    for i = 0; i 
+    printf("Enter the height of the pattern: ");
+    scanf("%d", &height);
+
+    for (i = 0; i < height; i++)
+    {
+        for (j = 0; j < height - i; j++)
+        {
+            printf(" ");
+        }
+        for (k = 0; k < i + 1; k++)
+        {
+            printf("#");
+        }
+        printf("/n");
+    }
+    return (0);
 }

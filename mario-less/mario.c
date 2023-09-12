@@ -4,6 +4,7 @@
 int main(void)
 {
     int height;
+    int i, j, k;
 
     printf("Enter the height of the pattern: ");
     scanf("%d", &height);

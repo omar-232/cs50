@@ -3,8 +3,10 @@
 
 int main(void)
 {
+    int i, j;
     do {
         int prompet = get_int("Height: ")
-    } while (prompet <= 0)
+    } while (prompet <= 0);
 
+    for i = 0; i 
 }

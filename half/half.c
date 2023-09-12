@@ -19,7 +19,8 @@ int main(void)
 float half(float bill, float tax, int tip)
 {
     float Sales_tax = bill + tax;
-    float Tap = bill + tip;
-    float Total_bill = bill + Sales
+    float Tip = bill + tip;
+    float Total_bill = bill + Sales_tax + Tip;
+    
     return 0.0;
 }

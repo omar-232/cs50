@@ -4,8 +4,10 @@ int main() {
     int height;
     int i, j, k;
 
+    do {
     printf("Enter the height of the pattern: ");
     scanf("%d", &height);
+    } while (height > 1 && height < 9);
 
     for (i = 0; i < height; i++)
     {

@@ -1,0 +1,22 @@
+Start
+    Declare height as an integer
+    Declare i, j, k as integers
+
+    Do
+        Display "Enter the height of the pattern (between 1 and 8): "
+        Read height from user input
+    While (height < 1 OR height > 8)
+
+    For i from 0 to height - 1
+        For j from 0 to height - i - 1
+            Display " "  // Print spaces
+        End For
+
+        For k from 0 to i
+            Display "#"
+        End For
+
+        Display a new line
+    End For
+
+End

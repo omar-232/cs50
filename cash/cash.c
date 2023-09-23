@@ -43,7 +43,7 @@ int get_cents(void)
 
 int calculate_quarters(int cents)
 {
-    quarter = cents / 25;
+    quarters = cents / 25;
     return 0;
 }
 
@@ -61,6 +61,6 @@ int calculate_nickels(int cents)
 
 int calculate_pennies(int cents)
 {
-    pennie = (cents % 25) % 10 % 5;
+    pennies = (cents % 25) % 10 % 5;
     return 0;
 }
